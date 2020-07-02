@@ -85,7 +85,7 @@ app.get('/home', (req, res) => {
   });
 });
 
-app.post('/home', (req, res) => {
+app.post('/home', async (req, res) => {
   const dados = {
     "topTitle":"Temos a solução que sua empresa precisa!",
 	"topSubTitle":"This is a simple hero unit, a simple Jumbotron-style component for calling extra attention to featured content or information.",
@@ -130,7 +130,7 @@ app.post('/home', (req, res) => {
   "portSeisSubTitle":"This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."
   };
 
-  const homeExist = Home.findOne({});
+  const homeExist = await Home.findOne({});
   if(homeExist){
     return res.status(400).json({
       error: true,
