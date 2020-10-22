@@ -1,5 +1,14 @@
 # API-Node.js
-# Node.js - MongoDB
+
+Tecnologias:
+ - Node.js 
+ - MongoDB
+
+Projeto desenvolvido durante o curso de reactJS na plataforma celke cursos.
+
+API integrada ao website react-nextJS:
+https://github.com/Ramon-Goveia/WebSite-React-Next.js
+
 
 COMO RODAR O PROJETO BAIXADO
 Instalar todas as dependencias indicada pelo package.json
