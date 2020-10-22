@@ -11,6 +11,7 @@ https://github.com/Ramon-Goveia/WebSite-React-Next.js
 
 
 COMO RODAR O PROJETO BAIXADO
+
 Instalar todas as dependencias indicada pelo package.json
 ### npm install
 
